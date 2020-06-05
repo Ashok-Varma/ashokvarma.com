@@ -1,5 +1,3 @@
-url: "http://ashokvarma.com"
-
 highlighter: rouge
 permalink: /:title/
 markdown: kramdown
