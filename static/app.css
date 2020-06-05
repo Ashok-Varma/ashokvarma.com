@@ -2,11 +2,11 @@
   --background-color: #fff;
   --foreground-color: #333;
   --link-color-hue: 151;
-  --link-color: hsl(var(--link-color-hue),44.7%,50%);
-  --link-color-hover: hsl(var(--link-color-hue),44.7%,45%);
+  --link-color: hsl(var(--link-color-hue), 44.7%, 50%);
+  --link-color-hover: hsl(var(--link-color-hue), 44.7%, 45%);
   --signature-color: #666;
   --date-color: #aaa;
-  --header-background-color: #111;
+  --header-background-color: #5ec190;
   --header-foreground-color: #eee;
   --header-link-color: #ddd;
   --code-background-color: #f6f6f6;
@@ -18,20 +18,23 @@ html {
 }
 body {
   min-height: 100%;
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: "Roboto Sans", sans-serif;
   background-color: var(--background-color);
   color: var(--foreground-color);
 }
 
-a, a:focus {
-  transition: color .3s ease-in-out;
+a,
+a:focus {
+  transition: color 0.3s ease-in-out;
   color: var(--link-color);
 }
-a:hover, a:active {
+a:hover,
+a:active {
   color: var(--link-color-hover);
 }
 
-ul, ol {
+ul,
+ol {
   padding-left: 25px;
 }
 
@@ -72,7 +75,8 @@ header h1 {
   }
 }
 
-header h1 a, header h1 a:focus {
+header h1 a,
+header h1 a:focus {
   color: #eee;
 }
 header h1 a:hover {
@@ -88,7 +92,8 @@ header ul a {
   color: var(--header-link-color-primary);
   font-weight: 700;
 }
-header ul a:hover, header ul a:active {
+header ul a:hover,
+header ul a:active {
   color: var(--link-color);
   text-decoration: none;
 }
@@ -152,11 +157,13 @@ header ul a span {
 p.date {
   color: var(--date-color);
 }
-p.date a, p.date a:visited {
+p.date a,
+p.date a:visited {
   color: var(--date-color) !important;
   text-decoration: underline;
 }
-p.date a:hover, p.date a:active {
+p.date a:hover,
+p.date a:active {
   color: var(--link-color) !important;
 }
 p.signature {
@@ -220,7 +227,7 @@ p.signature {
 }
 
 img.float-right {
-  margin: 0 1em .5em 1em;
+  margin: 0 1em 0.5em 1em;
   float: right;
 }
 @media (max-width: 500px) {
@@ -231,6 +238,7 @@ img.float-right {
   }
 }
 
-.anchorjs-link, .anchorjs-link:hover {
+.anchorjs-link,
+.anchorjs-link:hover {
   text-decoration: none;
 }
