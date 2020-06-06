@@ -4,3 +4,4 @@ vendor/
 node_modules/
 capture/
 */.DS_Store
+.DS_Store
