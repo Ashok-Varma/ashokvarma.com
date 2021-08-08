@@ -15,12 +15,11 @@ _Note: If you're on Mac OS and this fails installing nokogiri, run `brew unlink 
 ## Running the site
 
 Local development:
-
-    bundle exec jekyll serve
+    `bundle exec jekyll serve`
 
 Update GitHub Pages gem:
-
-    bundle update github-pages
+    `bundle update github-pages`
+    `bundle update --bundler`
 
 # License
 
