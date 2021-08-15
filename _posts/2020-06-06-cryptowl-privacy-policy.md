@@ -15,10 +15,11 @@ By browsing, visiting, accessing and/or using the services on this Site (or sear
 We encourage you to review our Privacy Policy, and familiarise with it. Please note that we review our Privacy Policy from time to time, and we may make periodic changes to the policy in connection with that review. Therefore, you may wish to bookmark this page and/or periodically review this page to make sure you have the latest version of the Privacy Policy.
 
 ## What information does Cryptowl collect, collate and/or use?
-On your accessing of this Site, certain information about you, such as :
+On your accessing of this App/Site, certain information about you, such as :
 
 1. **Personally Identifiable Information** like name(s) and contact details which may include e-mail address or contact number(s), password etc (all these only if user gives them to us via login or custom filling).
 2. **Interactional Information** like sharing content with friends and scores ..etc.
+3. **Primary Account Information** only in case of android app, primary account information will be collected to store users data against primary account email. So data can be recovered even on app uninstall.
 
 Besides the above, when you browse the Website, Cryptowl may collect information regarding the domain and host from which you access the Internet, the Internet Protocol address of the computer or Internet Service Provider you are using, and anonymous site statistical data, information furnished while navigating the Site, the systems and programs used and the time spent on our Site along with any other relevant information. The Website uses cookie and tracking technology depending on the features offered. Aggregate cookie and tracking information may be shared with third parties (Google Analytics ..etc) to cater to provide you a better service and experience.
 

@@ -17,7 +17,7 @@ _Note: If you're on Mac OS and this fails installing nokogiri, run `brew unlink 
 Local development:
     `bundle exec jekyll serve`
 
-Update GitHub Pages gem:
+Update (dependencies) GitHub Pages gem:
     `bundle update github-pages`
     `bundle update --bundler`
 
