@@ -6,6 +6,19 @@ Blog posts, presentations, podcasts, and other things...
 
 Ensure you have the correct version of Ruby installed (per `.ruby-version`). Also ensure you have the Bundler gem installed.
 
+## Ruby Setup
+`brew install chruby ruby-install`
+add following to .zshrc
+```zsh
+source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
+source /opt/homebrew/opt/chruby/share/chruby/auto.sh
+```
+Install latest ruby
+`ruby-install ruby`
+`ruby-install <version from .ruby-version>`
+Navigate to folder and Change version of ruby
+`chruby <version from .ruby-version>`
+
 ## One-time setup
 
     bundle install --path vendor/bundle
